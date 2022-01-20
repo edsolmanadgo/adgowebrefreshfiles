@@ -1,5 +1,15 @@
-#DirectoryIndex index.php
+Redirect 301 /products/microservices/services/geocoding/		<siteurl>/products/microservices/ 
+Redirect 301 /products/microservices/services/event-service/		<siteurl>/products/microservices/ 
+Redirect 301 /products/microservices/services/credit-rating/		<siteurl>/products/microservices/ 
+Redirect 301 /products/microservices/services/address-validation/	<siteurl>/products/microservices/ 
+Redirect 301 /products/microservices/services/currency-service/		<siteurl>/products/microservices/ 
+Redirect 301 /products/microservices/services/asset-tracking/		<siteurl>/products/microservices/ 
+Redirect 301 /products/microservices/services/sanctions-service/	<siteurl>/products/microservices/ 
+Redirect 301 /products/microservices/services/asset-location/		<siteurl>/products/microservices/ 
+Redirect 301 /products/microservices/services/peril-scoring/		<siteurl>/products/microservices/ 
+Redirect 301 /products/microservices/services/asset-zone-tracking/ 	<siteurl>/products/microservices/ 
 
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
 RewriteEngine on
 
 <IfModule mod_rewrite.c>
